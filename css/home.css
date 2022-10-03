@@ -1,0 +1,42 @@
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+div.itembox {
+	background-color: lightgrey;
+	width: 80px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	height: 170px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+div.itembox img {
+	width: 150px;
+	height: 100px;
+}
+
+.namabarang {
+	color: #3b9ae1;
+	border: 1px black;
+	padding-top: 10px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.hargabrg {
+	color: #3120e0;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+div .a :hover {
+	background-color: red;
+}

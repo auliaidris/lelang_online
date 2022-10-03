@@ -1,0 +1,83 @@
+body{
+	/* background-color:#f9f9f9; */
+	font-size: 16px;
+	color:#444;
+	font-family : sans-serif;
+	background: linear-gradient(lightblue, white);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+ 
+/*header*/
+header{
+	padding: 20px 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #f0f0f0;
+	background: rgb(66, 194, 226);
+}
+.search {
+	background-color: white;
+	border: 1px lightblue;
+	border-radius: 10px;
+	margin-right: 800px;
+	align-items: center;
+	padding: 1px 10px;
+
+}
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: left;
+}
+ 
+/*menu navigasi*/
+.menu{
+	border-radius: 8px;	
+	margin-bottom: 10px;
+	border: 1px solid #f0f0f0;
+	background: rgb(66, 194, 226);
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.menu ul li {
+	float: right;		
+	text-transform: uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding: 0px 20px 0px 5px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+ 
+div.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(lightblue, white);
+}
+
+.gambar img {
+    width: 260px;
+	height: 160px;
+}
+
+.gambar {
+    
+}
+
+header {
+    display: block;
+    margin-bottom: 50px;
+}
+
+p.tipe {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p.hargaa {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.detail {
+    width: 400px;
+    height: 145px;
+    /* margin: auto; */
+    /* margin-left: 265px;
+    margin-bottom: 1000px; */
+    border: 1px solid black;
+    background: lightblue;
+    padding: 10px 10px 1px 10px;
+}
